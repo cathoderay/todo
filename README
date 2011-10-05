@@ -1,1 +1,8 @@
-Simple command line todo manager.
+
+1. Fill your ~/.tasks with files;
+2. Each file is a task;
+3. Keep track of tasks with your $PS1;
+
+Redefine your $PS1:
+$PS1="$PS1\`get_tasks.sh\` "
+
